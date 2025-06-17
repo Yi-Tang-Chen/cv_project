@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/q100/Downloads/test_cv/cv_project/sampleCode/src/main.cpp" "CMakeFiles/SampleCode.dir/src/main.cpp.o" "gcc" "CMakeFiles/SampleCode.dir/src/main.cpp.o.d"
   "/home/q100/Downloads/test_cv/cv_project/sampleCode/src/opencv.cpp" "CMakeFiles/SampleCode.dir/src/opencv.cpp.o" "gcc" "CMakeFiles/SampleCode.dir/src/opencv.cpp.o.d"
   )
 

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/SampleCode.dir/src/main.cpp.o"
+  "CMakeFiles/SampleCode.dir/src/main.cpp.o.d"
   "CMakeFiles/SampleCode.dir/src/opencv.cpp.o"
   "CMakeFiles/SampleCode.dir/src/opencv.cpp.o.d"
   "SampleCode"

@@ -129,6 +129,30 @@ SampleCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode.dir/build.make CMakeFiles/SampleCode.dir/build
 .PHONY : SampleCode/fast
 
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode.dir/build.make CMakeFiles/SampleCode.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode.dir/build.make CMakeFiles/SampleCode.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode.dir/build.make CMakeFiles/SampleCode.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 src/opencv.o: src/opencv.cpp.o
 .PHONY : src/opencv.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SampleCode"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 	@echo "... src/opencv.o"
 	@echo "... src/opencv.i"
 	@echo "... src/opencv.s"

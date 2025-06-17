@@ -85,12 +85,12 @@ clean: CMakeFiles/SampleCode.dir/clean
 CMakeFiles/SampleCode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode.dir/build.make CMakeFiles/SampleCode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode.dir/build.make CMakeFiles/SampleCode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles --progress-num=1,2 "Built target SampleCode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles --progress-num=1,2,3 "Built target SampleCode"
 .PHONY : CMakeFiles/SampleCode.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SampleCode.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SampleCode.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles 0
 .PHONY : CMakeFiles/SampleCode.dir/rule
@@ -102,7 +102,7 @@ SampleCode: CMakeFiles/SampleCode.dir/rule
 # codegen rule for target.
 CMakeFiles/SampleCode.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode.dir/build.make CMakeFiles/SampleCode.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles --progress-num=1,2 "Finished codegen for target SampleCode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target SampleCode"
 .PHONY : CMakeFiles/SampleCode.dir/codegen
 
 # clean rule for target.
