@@ -4,7 +4,7 @@
 Camera::Camera(int deviceIndex) {
     cap_.open(deviceIndex);
     if (!cap_.isOpened()) {
-        std::cerr << "Error: 無法開啟 USB 相機 #" << deviceIndex << std::endl;
+        std::cerr << "Error" << deviceIndex << std::endl;
     } else {
         std::cout << "Camera #" << deviceIndex << " 已開啟" << std::endl;
     }
