@@ -1,4 +1,3 @@
 /home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles/SampleCode.dir
 /home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles/edit_cache.dir
 /home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles/rebuild_cache.dir
-/home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles/SampleCode_autogen.dir

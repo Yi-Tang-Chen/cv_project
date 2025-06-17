@@ -129,115 +129,6 @@ SampleCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode.dir/build.make CMakeFiles/SampleCode.dir/build
 .PHONY : SampleCode/fast
 
-#=============================================================================
-# Target rules for targets named SampleCode_autogen
-
-# Build rule for target.
-SampleCode_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SampleCode_autogen
-.PHONY : SampleCode_autogen
-
-# fast build rule for target.
-SampleCode_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode_autogen.dir/build.make CMakeFiles/SampleCode_autogen.dir/build
-.PHONY : SampleCode_autogen/fast
-
-SampleCode_autogen/mocs_compilation.o: SampleCode_autogen/mocs_compilation.cpp.o
-.PHONY : SampleCode_autogen/mocs_compilation.o
-
-# target to build an object file
-SampleCode_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode.dir/build.make CMakeFiles/SampleCode.dir/SampleCode_autogen/mocs_compilation.cpp.o
-.PHONY : SampleCode_autogen/mocs_compilation.cpp.o
-
-SampleCode_autogen/mocs_compilation.i: SampleCode_autogen/mocs_compilation.cpp.i
-.PHONY : SampleCode_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-SampleCode_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode.dir/build.make CMakeFiles/SampleCode.dir/SampleCode_autogen/mocs_compilation.cpp.i
-.PHONY : SampleCode_autogen/mocs_compilation.cpp.i
-
-SampleCode_autogen/mocs_compilation.s: SampleCode_autogen/mocs_compilation.cpp.s
-.PHONY : SampleCode_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-SampleCode_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode.dir/build.make CMakeFiles/SampleCode.dir/SampleCode_autogen/mocs_compilation.cpp.s
-.PHONY : SampleCode_autogen/mocs_compilation.cpp.s
-
-src/Global.o: src/Global.cpp.o
-.PHONY : src/Global.o
-
-# target to build an object file
-src/Global.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode.dir/build.make CMakeFiles/SampleCode.dir/src/Global.cpp.o
-.PHONY : src/Global.cpp.o
-
-src/Global.i: src/Global.cpp.i
-.PHONY : src/Global.i
-
-# target to preprocess a source file
-src/Global.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode.dir/build.make CMakeFiles/SampleCode.dir/src/Global.cpp.i
-.PHONY : src/Global.cpp.i
-
-src/Global.s: src/Global.cpp.s
-.PHONY : src/Global.s
-
-# target to generate assembly for a file
-src/Global.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode.dir/build.make CMakeFiles/SampleCode.dir/src/Global.cpp.s
-.PHONY : src/Global.cpp.s
-
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode.dir/build.make CMakeFiles/SampleCode.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
-
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode.dir/build.make CMakeFiles/SampleCode.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode.dir/build.make CMakeFiles/SampleCode.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
-
-src/mainwindow.o: src/mainwindow.cpp.o
-.PHONY : src/mainwindow.o
-
-# target to build an object file
-src/mainwindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode.dir/build.make CMakeFiles/SampleCode.dir/src/mainwindow.cpp.o
-.PHONY : src/mainwindow.cpp.o
-
-src/mainwindow.i: src/mainwindow.cpp.i
-.PHONY : src/mainwindow.i
-
-# target to preprocess a source file
-src/mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode.dir/build.make CMakeFiles/SampleCode.dir/src/mainwindow.cpp.i
-.PHONY : src/mainwindow.cpp.i
-
-src/mainwindow.s: src/mainwindow.cpp.s
-.PHONY : src/mainwindow.s
-
-# target to generate assembly for a file
-src/mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SampleCode.dir/build.make CMakeFiles/SampleCode.dir/src/mainwindow.cpp.s
-.PHONY : src/mainwindow.cpp.s
-
 src/opencv.o: src/opencv.cpp.o
 .PHONY : src/opencv.o
 
@@ -270,20 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... SampleCode_autogen"
 	@echo "... SampleCode"
-	@echo "... SampleCode_autogen/mocs_compilation.o"
-	@echo "... SampleCode_autogen/mocs_compilation.i"
-	@echo "... SampleCode_autogen/mocs_compilation.s"
-	@echo "... src/Global.o"
-	@echo "... src/Global.i"
-	@echo "... src/Global.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
-	@echo "... src/mainwindow.o"
-	@echo "... src/mainwindow.i"
-	@echo "... src/mainwindow.s"
 	@echo "... src/opencv.o"
 	@echo "... src/opencv.i"
 	@echo "... src/opencv.s"

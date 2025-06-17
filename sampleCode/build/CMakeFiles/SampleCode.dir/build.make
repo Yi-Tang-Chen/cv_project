@@ -69,73 +69,13 @@ include CMakeFiles/SampleCode.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SampleCode.dir/flags.make
 
-ui_mainwindow.h: /home/q100/Downloads/test_cv/cv_project/sampleCode/src/ui/mainwindow.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_mainwindow.h"
-	/opt/qt5/bin/uic -o /home/q100/Downloads/test_cv/cv_project/sampleCode/build/ui_mainwindow.h /home/q100/Downloads/test_cv/cv_project/sampleCode/src/ui/mainwindow.ui
-
 CMakeFiles/SampleCode.dir/codegen:
 .PHONY : CMakeFiles/SampleCode.dir/codegen
-
-CMakeFiles/SampleCode.dir/SampleCode_autogen/mocs_compilation.cpp.o: CMakeFiles/SampleCode.dir/flags.make
-CMakeFiles/SampleCode.dir/SampleCode_autogen/mocs_compilation.cpp.o: SampleCode_autogen/mocs_compilation.cpp
-CMakeFiles/SampleCode.dir/SampleCode_autogen/mocs_compilation.cpp.o: CMakeFiles/SampleCode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SampleCode.dir/SampleCode_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SampleCode.dir/SampleCode_autogen/mocs_compilation.cpp.o -MF CMakeFiles/SampleCode.dir/SampleCode_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/SampleCode.dir/SampleCode_autogen/mocs_compilation.cpp.o -c /home/q100/Downloads/test_cv/cv_project/sampleCode/build/SampleCode_autogen/mocs_compilation.cpp
-
-CMakeFiles/SampleCode.dir/SampleCode_autogen/mocs_compilation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SampleCode.dir/SampleCode_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/q100/Downloads/test_cv/cv_project/sampleCode/build/SampleCode_autogen/mocs_compilation.cpp > CMakeFiles/SampleCode.dir/SampleCode_autogen/mocs_compilation.cpp.i
-
-CMakeFiles/SampleCode.dir/SampleCode_autogen/mocs_compilation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SampleCode.dir/SampleCode_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/q100/Downloads/test_cv/cv_project/sampleCode/build/SampleCode_autogen/mocs_compilation.cpp -o CMakeFiles/SampleCode.dir/SampleCode_autogen/mocs_compilation.cpp.s
-
-CMakeFiles/SampleCode.dir/src/Global.cpp.o: CMakeFiles/SampleCode.dir/flags.make
-CMakeFiles/SampleCode.dir/src/Global.cpp.o: /home/q100/Downloads/test_cv/cv_project/sampleCode/src/Global.cpp
-CMakeFiles/SampleCode.dir/src/Global.cpp.o: CMakeFiles/SampleCode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SampleCode.dir/src/Global.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SampleCode.dir/src/Global.cpp.o -MF CMakeFiles/SampleCode.dir/src/Global.cpp.o.d -o CMakeFiles/SampleCode.dir/src/Global.cpp.o -c /home/q100/Downloads/test_cv/cv_project/sampleCode/src/Global.cpp
-
-CMakeFiles/SampleCode.dir/src/Global.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SampleCode.dir/src/Global.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/q100/Downloads/test_cv/cv_project/sampleCode/src/Global.cpp > CMakeFiles/SampleCode.dir/src/Global.cpp.i
-
-CMakeFiles/SampleCode.dir/src/Global.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SampleCode.dir/src/Global.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/q100/Downloads/test_cv/cv_project/sampleCode/src/Global.cpp -o CMakeFiles/SampleCode.dir/src/Global.cpp.s
-
-CMakeFiles/SampleCode.dir/src/main.cpp.o: CMakeFiles/SampleCode.dir/flags.make
-CMakeFiles/SampleCode.dir/src/main.cpp.o: /home/q100/Downloads/test_cv/cv_project/sampleCode/src/main.cpp
-CMakeFiles/SampleCode.dir/src/main.cpp.o: CMakeFiles/SampleCode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SampleCode.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SampleCode.dir/src/main.cpp.o -MF CMakeFiles/SampleCode.dir/src/main.cpp.o.d -o CMakeFiles/SampleCode.dir/src/main.cpp.o -c /home/q100/Downloads/test_cv/cv_project/sampleCode/src/main.cpp
-
-CMakeFiles/SampleCode.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SampleCode.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/q100/Downloads/test_cv/cv_project/sampleCode/src/main.cpp > CMakeFiles/SampleCode.dir/src/main.cpp.i
-
-CMakeFiles/SampleCode.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SampleCode.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/q100/Downloads/test_cv/cv_project/sampleCode/src/main.cpp -o CMakeFiles/SampleCode.dir/src/main.cpp.s
-
-CMakeFiles/SampleCode.dir/src/mainwindow.cpp.o: CMakeFiles/SampleCode.dir/flags.make
-CMakeFiles/SampleCode.dir/src/mainwindow.cpp.o: /home/q100/Downloads/test_cv/cv_project/sampleCode/src/mainwindow.cpp
-CMakeFiles/SampleCode.dir/src/mainwindow.cpp.o: CMakeFiles/SampleCode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SampleCode.dir/src/mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SampleCode.dir/src/mainwindow.cpp.o -MF CMakeFiles/SampleCode.dir/src/mainwindow.cpp.o.d -o CMakeFiles/SampleCode.dir/src/mainwindow.cpp.o -c /home/q100/Downloads/test_cv/cv_project/sampleCode/src/mainwindow.cpp
-
-CMakeFiles/SampleCode.dir/src/mainwindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SampleCode.dir/src/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/q100/Downloads/test_cv/cv_project/sampleCode/src/mainwindow.cpp > CMakeFiles/SampleCode.dir/src/mainwindow.cpp.i
-
-CMakeFiles/SampleCode.dir/src/mainwindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SampleCode.dir/src/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/q100/Downloads/test_cv/cv_project/sampleCode/src/mainwindow.cpp -o CMakeFiles/SampleCode.dir/src/mainwindow.cpp.s
 
 CMakeFiles/SampleCode.dir/src/opencv.cpp.o: CMakeFiles/SampleCode.dir/flags.make
 CMakeFiles/SampleCode.dir/src/opencv.cpp.o: /home/q100/Downloads/test_cv/cv_project/sampleCode/src/opencv.cpp
 CMakeFiles/SampleCode.dir/src/opencv.cpp.o: CMakeFiles/SampleCode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SampleCode.dir/src/opencv.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SampleCode.dir/src/opencv.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SampleCode.dir/src/opencv.cpp.o -MF CMakeFiles/SampleCode.dir/src/opencv.cpp.o.d -o CMakeFiles/SampleCode.dir/src/opencv.cpp.o -c /home/q100/Downloads/test_cv/cv_project/sampleCode/src/opencv.cpp
 
 CMakeFiles/SampleCode.dir/src/opencv.cpp.i: cmake_force
@@ -148,27 +88,30 @@ CMakeFiles/SampleCode.dir/src/opencv.cpp.s: cmake_force
 
 # Object files for target SampleCode
 SampleCode_OBJECTS = \
-"CMakeFiles/SampleCode.dir/SampleCode_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/SampleCode.dir/src/Global.cpp.o" \
-"CMakeFiles/SampleCode.dir/src/main.cpp.o" \
-"CMakeFiles/SampleCode.dir/src/mainwindow.cpp.o" \
 "CMakeFiles/SampleCode.dir/src/opencv.cpp.o"
 
 # External object files for target SampleCode
 SampleCode_EXTERNAL_OBJECTS =
 
-SampleCode: CMakeFiles/SampleCode.dir/SampleCode_autogen/mocs_compilation.cpp.o
-SampleCode: CMakeFiles/SampleCode.dir/src/Global.cpp.o
-SampleCode: CMakeFiles/SampleCode.dir/src/main.cpp.o
-SampleCode: CMakeFiles/SampleCode.dir/src/mainwindow.cpp.o
 SampleCode: CMakeFiles/SampleCode.dir/src/opencv.cpp.o
 SampleCode: CMakeFiles/SampleCode.dir/build.make
-SampleCode: /opt/qt5/lib/libQt5Network.so.5.14.2
-SampleCode: /opt/qt5/lib/libQt5Widgets.so.5.14.2
-SampleCode: /opt/qt5/lib/libQt5Gui.so.5.14.2
-SampleCode: /opt/qt5/lib/libQt5Core.so.5.14.2
+SampleCode: /usr/local/lib/libopencv_gapi.so.4.11.0
+SampleCode: /usr/local/lib/libopencv_highgui.so.4.11.0
+SampleCode: /usr/local/lib/libopencv_ml.so.4.11.0
+SampleCode: /usr/local/lib/libopencv_objdetect.so.4.11.0
+SampleCode: /usr/local/lib/libopencv_photo.so.4.11.0
+SampleCode: /usr/local/lib/libopencv_stitching.so.4.11.0
+SampleCode: /usr/local/lib/libopencv_video.so.4.11.0
+SampleCode: /usr/local/lib/libopencv_videoio.so.4.11.0
+SampleCode: /usr/local/lib/libopencv_imgcodecs.so.4.11.0
+SampleCode: /usr/local/lib/libopencv_dnn.so.4.11.0
+SampleCode: /usr/local/lib/libopencv_calib3d.so.4.11.0
+SampleCode: /usr/local/lib/libopencv_features2d.so.4.11.0
+SampleCode: /usr/local/lib/libopencv_flann.so.4.11.0
+SampleCode: /usr/local/lib/libopencv_imgproc.so.4.11.0
+SampleCode: /usr/local/lib/libopencv_core.so.4.11.0
 SampleCode: CMakeFiles/SampleCode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable SampleCode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SampleCode"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SampleCode.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -179,7 +122,7 @@ CMakeFiles/SampleCode.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/SampleCode.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/SampleCode.dir/clean
 
-CMakeFiles/SampleCode.dir/depend: ui_mainwindow.h
+CMakeFiles/SampleCode.dir/depend:
 	cd /home/q100/Downloads/test_cv/cv_project/sampleCode/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/q100/Downloads/test_cv/cv_project/sampleCode /home/q100/Downloads/test_cv/cv_project/sampleCode /home/q100/Downloads/test_cv/cv_project/sampleCode/build /home/q100/Downloads/test_cv/cv_project/sampleCode/build /home/q100/Downloads/test_cv/cv_project/sampleCode/build/CMakeFiles/SampleCode.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/SampleCode.dir/depend
 
